@@ -1,0 +1,143 @@
+/* roboto-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v30-latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root{
+    --color-brand-light:rgba(43, 127, 255, 1);
+    --color-brand-dark: rgba(1, 28, 68, 1);
+    --color-primary-dark: rgba(0, 0, 0, 1);
+    --color-primary-light: rgba(255, 255, 255, 1);
+}
+
+body{
+    color: var(--color-primary-dark);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/*Title*/
+.sectoin-title {
+    font-family: Play, sans-serif;
+    font-size: 64px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/*pharagraph*/
+.dark-p {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.light-p {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+ul {
+    list-style-type: none;
+}
+/*title*/
+
+/*Header*/
+.information-list {
+    color: var(--color-brand-dark);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/*Header main title*/
+.main-title {
+    color: var(--color-brand-light);
+    font-family: Play, sans-serif;
+    font-weight: 700;
+}
+
+.main-title .accent {
+   color: var(--color-brand-light);
+   font-family: Play, sans-serif;
+   font-size: 140px;
+   line-height: 0.8;
+}
+
+/*call-button*/
+.call-button {
+    color: var(--color-primary-light);
+    background: #2B7FFF;
+    border-radius: 32px;
+}
+
+.call-button:hover {
+    color: var(--color-brand-dark);
+    background-color:transparent ;
+}
+
+.call-benefit {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/*link*/
+.link {
+    color: var(--color-brand-dark);
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.link:hover {
+    color: var(--color-brand-light);
+}
+
+
+.link-footer {
+    color: var(--color-primary-light);
+}
+
+.link-footer:hover {
+    color: var(--color-brand-dark);
+}
+
+/*Section title*/
+.sectoin-title {
+    color: var(--color-brand-dark);
+}
+
+.sectoin-title .accent {
+    color: var(--color-brand-light);
+}
+
+/*Additional-info*/
+.dark-p {
+    color: var(--color-brand-dark);
+}
+
+.dark-p .accent {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.light-p {
+    color: var(--color-primary-dark);
+}
+
+/*footer ©*/
+.note {
+    color: rgba(116, 114, 114, 1);
+}
